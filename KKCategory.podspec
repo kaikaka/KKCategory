@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   
   s.requires_arc = true
   s.source_files = 'KKCategory/**/*.{h,m}'
-  s.resource     = 'KKCategory/UIKit/Support/KIInputSource.bundle'
+  #s.resource     = 'KKCategory/UIKit/Support/KIInputSource.bundle'
 
   s.frameworks = 'UIKit', 'Foundation'
 

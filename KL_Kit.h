@@ -27,3 +27,5 @@
 #import "NSData+KL_Kit.h"
 #import "NSDate+KL_Kit.h"
 #import "UINavigationBar+KL_Kit.h"
+#import "UIImageView+CornerRadius.h"
+#import "UILabel+FlickerNumber.h"

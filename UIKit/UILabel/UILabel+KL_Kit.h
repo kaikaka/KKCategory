@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "UILabel+KL_Copy.h"
 #import "NSString+KL_Kit.h"
+#import "UILabel+FlickerNumber.h"
 
 @interface UILabel (KL_Kit)
 

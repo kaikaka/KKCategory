@@ -74,8 +74,8 @@
 }
 
 - (void)commonInit {
-  NSString *imagePathLast = [[NSBundle mainBundle].resourcePath stringByAppendingPathComponent:@"NIInputSource.bundle/last.png"];
-  NSString *imagePathNext = [[NSBundle mainBundle].resourcePath stringByAppendingPathComponent:@"NIInputSource.bundle/next.png"];
+  NSString *imagePathLast = [[NSBundle mainBundle].resourcePath stringByAppendingPathComponent:@"KIInputSource.bundle/last.png"];
+  NSString *imagePathNext = [[NSBundle mainBundle].resourcePath stringByAppendingPathComponent:@"KIInputSource.bundle/next.png"];
   UIImage *imageLast = [UIImage imageWithContentsOfFile:imagePathLast];
   UIImage *imageNext = [UIImage imageWithContentsOfFile:imagePathNext];
   

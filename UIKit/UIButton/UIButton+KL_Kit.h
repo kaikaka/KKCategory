@@ -1,6 +1,6 @@
 //
-//  UIButton+KLKit.h
-//  KLKit
+//  UIButton+KL_Kit.h
+//  KL_Kit
 //
 //  Created by XiangKai Yin on 6/19/16.
 //  Copyright © 2016 K. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIButton (KLKit)
+@interface UIButton (KL_Kit)
 
 @property (strong, nonatomic) UIImage *kl_image;
 @property (strong, nonatomic) UIImage *kl_imageHighlighted;

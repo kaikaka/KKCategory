@@ -1,14 +1,14 @@
 //
-//  UIButton+KLKit.m
-//  KLKit
+//  UIButton+KL_Kit.m
+//  KL_Kit
 //
 //  Created by XiangKai Yin on 6/19/16.
 //  Copyright © 2016 K. All rights reserved.
 //
 
-#import "UIButton+KLKit.h"
+#import "UIButton+KL_Kit.h"
 
-@implementation UIButton (KLKit)
+@implementation UIButton (KL_Kit)
 
 - (void)setKl_image:(UIImage *)kl_image {
   /**

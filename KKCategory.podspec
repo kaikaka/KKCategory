@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { '观剑不则声' => 'yoon1583@foxmail.com' }
   s.social_media_url = 'http://yoon.farbox.com/'
-  s.homepage     = 'https://github.com/sugarAndsugar/KLCategory'
+  s.homepage     = 'https://github.com/sugarAndsugar/KKCategory'
   s.platform     = :ios, '7.0'
   s.ios.deployment_target = '7.0'
-  s.source       = { :git => 'https://github.com/sugarAndsugar/KLCategory.git', :tag => s.version.to_s }
+  s.source       = { :git => 'https://github.com/sugarAndsugar/KKCategory.git', :tag => s.version.to_s }
   
   s.requires_arc = true
   s.source_files = 'KKCategory/**/*.{h,m}'

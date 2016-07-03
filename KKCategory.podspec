@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/sugarAndsugar/KKCategory'
   s.platform     = :ios, '7.0'
   s.ios.deployment_target = '7.0'
-  s.source       = { :git => 'https://github.com/sugarAndsugar/KKCategory.git', :tag => s.version.to_s }
+  s.source       = { :git => 'https://github.com/sugarAndsugar/KKCategory.git', :commit => "0d6761feefccff1f7d8b7c7788ceb8e9cd1314ea" }
   
   s.requires_arc = true
   s.source_files = 'KKCategory/*.{h,m}'

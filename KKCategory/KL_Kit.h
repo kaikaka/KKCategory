@@ -29,3 +29,5 @@
 #import "UINavigationBar+KL_Kit.h"
 #import "UIImageView+CornerRadius.h"
 #import "UILabel+FlickerNumber.h"
+#import "UIView+KL_Block.h"
+#import "UIControl+KL_Block.h"

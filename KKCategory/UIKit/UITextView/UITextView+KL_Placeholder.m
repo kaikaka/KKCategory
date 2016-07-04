@@ -72,7 +72,7 @@ static NSString *const kHoomicNotificationDidChangeTextView = @"kHoomicNotificat
   }
 }
 
-- (void)setkl_placeholder:(NSString *)kl_placeholder {
+- (void)setKl_placeholder:(NSString *)kl_placeholder {
   [self.kl_lblPlaceholder setText:kl_placeholder];
   
   [self setNeedsDisplay];
@@ -82,7 +82,7 @@ static NSString *const kHoomicNotificationDidChangeTextView = @"kHoomicNotificat
   return [self.kl_lblPlaceholder text];
 }
 
-- (void)setkl_placeholderColor:(UIColor *)kl_placeholderColor {
+- (void)setKl_placeholderColor:(UIColor *)kl_placeholderColor {
   [self.kl_lblPlaceholder setTextColor:kl_placeholderColor];
 }
 
@@ -90,7 +90,7 @@ static NSString *const kHoomicNotificationDidChangeTextView = @"kHoomicNotificat
   return [self.kl_lblPlaceholder textColor];
 }
 
-- (void)setkl_placeholderFont:(UIFont *)kl_placeholderFont {
+- (void)setKl_placeholderFont:(UIFont *)kl_placeholderFont {
   [self.kl_lblPlaceholder setFont:kl_placeholderFont];
 }
 
@@ -98,7 +98,7 @@ static NSString *const kHoomicNotificationDidChangeTextView = @"kHoomicNotificat
   return [self.kl_lblPlaceholder font];
 }
 
-- (void)setkl_isDidChangePostNotification:(BOOL)kl_isDidChangePostNotification {
+- (void)setKl_isDidChangePostNotification:(BOOL)kl_isDidChangePostNotification {
   objc_setAssociatedObject(self, @selector(kl_isDidChangePostNotification), @(kl_isDidChangePostNotification), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
